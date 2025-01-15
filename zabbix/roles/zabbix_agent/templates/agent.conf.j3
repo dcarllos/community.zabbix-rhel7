@@ -1,0 +1,27 @@
+#
+# Ansible managed
+#
+# This is a configuration file for Zabbix Agent 2
+# To get more information about Zabbix, visit http://www.zabbix.com
+
+# This configuration file is "minimalized", which means all the original comments
+# are removed. The full documentation for your Zabbix Agent 2 can be found here:
+# https://www.zabbix.com/documentation/6.0/en/manual/appendix/config/zabbix_agent2
+
+PidFile=/var/run/zabbix/zabbix_agent2.pid
+LogType=file
+LogFile=/var/log/zabbix/zabbix_agent2.log
+LogFileSize=100
+DebugLevel=3
+Server=10.240.32.3
+ListenPort=10050
+ServerActive=10.240.32.3
+HostnameItem=system.hostname
+RefreshActiveChecks=120
+BufferSend=5
+BufferSize=100
+PersistentBufferPeriod=1h
+Timeout=3
+Include=/etc/zabbix/zabbix_agent2.d/
+ControlSocket=/tmp/agent.sock
+AllowKey=system.run[*]
