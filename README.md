@@ -5,7 +5,7 @@ Ansible collection for zabbix-agetnt2 that works is rhel7 bases systems.
 This collection is used for installing and configuring zabbix-agent2 on rhel7-like servers.
 
 
-#Starting with version 3.0.0 of the community.zabbix collection, the following changes occurred:
+Starting with version 3.0.0 of the community.zabbix collection, the following changes occurred:
 
 # Breaking Changes / Porting Guide
 # --------------------------------
@@ -22,4 +22,4 @@ This collection is used for installing and configuring zabbix-agent2 on rhel7-li
 - zabbix_agent role - Remove support for `zabbix_sender_package` variable.
 - zabbix_agent role - Remove support for all `zabbix_agent2_*` variables.
 
-#Information obtained from the file /root/.ansible/collections/ansible_collections/community/zabbix/CHANGELOG.rst
+Information obtained from the file /root/.ansible/collections/ansible_collections/community/zabbix/CHANGELOG.rst
