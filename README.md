@@ -1,5 +1,5 @@
 # community.zabbix-rhel7
-Ansible collection for zabbix-agetnt2 that works is rhel7 bases systems.
+Ansible collection for zabbix-agent2 that works is rhel7 bases systems.
 
 
 This collection is used for installing and configuring zabbix-agent2 on rhel7-like servers.
